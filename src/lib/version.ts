@@ -87,7 +87,11 @@ function compareVersions(remoteVersion: string): UpdateStatus {
     const current = parseInt(CURRENT_VERSION, 10);
     const remote = parseInt(remoteVersion, 10);
 
-    return remote > current ? UpdateStatus.HAS_UPDATE : UpdateStatus.NO_UPDATE;
+// return remote > current ? UpdateStatus.HAS_UPDATE : UpdateStatus.NO_UPDATE;
+    
+  // 已禁用版本比较逻辑，永远返回无更新
+    return UpdateStatus.NO_UPDATE;
+    
   } catch (error) {
     console.error('版本比较失败:', error);
     return UpdateStatus.FETCH_FAILED;
