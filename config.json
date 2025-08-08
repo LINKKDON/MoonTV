@@ -88,5 +88,6 @@
     "jkun": {
       "api": "https://jkunzyapi.com/api.php/provide/vod",
       "name": "jkun资源"
+    }
   }
 }
