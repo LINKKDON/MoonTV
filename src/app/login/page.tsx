@@ -232,7 +232,8 @@ function LoginPageClient() {
 
       {/* 版本信息显示 */}
 {/*       <VersionDisplay />
-    </div> */}
+       */}
+    </div>
   );
 }
 
