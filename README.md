@@ -1,4 +1,4 @@
-# MoonTV(Branch)
+# LinusTV(Branch)
 
 原项目地址https://github.com/MoonTechLab/LunaTV
 
